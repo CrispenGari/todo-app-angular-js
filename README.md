@@ -9,7 +9,7 @@ This is a simple todo application that performs the following operations
 
 ## Demo
 
-![alt-text]()
+![alt-text](https://github.com/CrispenGari/todo-app-angular-js/blob/main/bandicam%202021-02-14%2015-23-58-758.jpg)
 
 ## This application is using
 
