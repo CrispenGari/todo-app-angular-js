@@ -1,0 +1,31 @@
+$body_color: #f5f5f5;
+$user_select: none;
+$user_zoom: $user_select;
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: $body_color !important;
+  user-select: $user_select;
+  user-zoom: $user_zoom;
+  .app__container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white !important;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+    height: 100vh;
+    border-top: none;
+    h1 {
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: lightseagreen;
+      font-weight: 500;
+      font-size: 16px;
+      padding: 10px;
+      border-bottom: 1px solid lightgrey;
+    }
+  }
+}

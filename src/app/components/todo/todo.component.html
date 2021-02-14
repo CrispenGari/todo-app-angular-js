@@ -1,0 +1,16 @@
+<div class="todo">
+  <form class="todo__form" (ngSubmit)="addTodoHandler()">
+    <input
+      type="text"
+      placeholder="Add a todo"
+      name="title"
+      [(ngModel)]="title"
+    />
+    <button type="submit" class="todo__form__button">Add</button>
+  </form>
+  <app-todo-item
+    *ngFor="let todo of todos"
+    [todo]="todo"
+    (deleteTodo)="deleteTodo($event)"
+  ></app-todo-item>
+</div>

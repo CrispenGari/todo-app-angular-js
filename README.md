@@ -1,3 +1,49 @@
+# What is Todos?
+
+This is a simple todo application that performs the following operations
+
+- adding a todo item
+- deleting a todo item
+- updates a todo item
+- showing all the todo items
+
+## Demo
+
+![alt-text]()
+
+## This application is using
+
+- html
+- Angular
+- scss
+- jsonplaceholder [here](https://jsonplaceholder.cypress.io/todos/)
+
+## Angular CLI commands used in this app
+
+```
+# Generating a component to do in the todo directory
+
+ng g c components/todo
+# OR
+ng generate component components/todo
+
+# Generating a service to do in the todo directory
+
+ng g s services/todo
+# OR
+ng generate service services/todo
+
+
+```
+
+## Why this simple application?
+
+This is my first build with `Angular Js` so basically it's for practice purposes
+
+## URL to the ng Documentation
+
+- [Angular](https://angular.io/start/)
+
 # Todos
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.

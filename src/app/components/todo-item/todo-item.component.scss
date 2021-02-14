@@ -1,0 +1,38 @@
+.todoitem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  p {
+    flex: 1;
+    word-wrap: break-word;
+    margin: 0 10px;
+  }
+  input {
+    cursor: pointer;
+  }
+  button {
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 5px;
+    background-color: orange;
+  }
+  button:hover {
+    background-color: lightseagreen;
+  }
+  .todo__completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+}
+.todoitem:nth-child(odd) {
+  background: #fafafa !important;
+}
